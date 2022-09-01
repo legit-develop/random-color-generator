@@ -11,6 +11,6 @@ function randomColor() {
   const colorCodeLength = 6;
   let color = "";
   for (let index = 0; index < colorCodeLength; index++) {
-    const randomNum = Math.random() * chars.length;
+    const randomNum = Math.floor(Math.random() * chars.length);
   }
 }
